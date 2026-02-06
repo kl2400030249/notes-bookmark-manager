@@ -123,7 +123,7 @@ Frontend runs on `http://localhost:3000`.
 
 Sample API Request
 
-bash
+```bash
 curl -X POST http://localhost:5000/api/notes \
 -H "Authorization: Bearer YOUR_TOKEN" \
 -H "Content-Type: application/json" \
@@ -132,6 +132,7 @@ curl -X POST http://localhost:5000/api/notes \
   "content": "Discussion points from the meeting",
   "tags": ["work", "meeting"]
 }
+```
 Assignment Coverage Summary
 
 This project fulfills all required and bonus criteria of the assignment, including:
